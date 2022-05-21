@@ -1,0 +1,40 @@
+body {
+    background: #abd0db;
+    font-family: "Noto Sans Display", sans-serif;
+  }
+  
+  .container {
+    margin: 200px auto;
+    width: 600px;
+    height: 340px;
+  }
+  
+  #search-field {
+    width: 85%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  #search-button {
+    text-align: center;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ffffff;
+  }
+  
+  #search-button:hover {
+    background-color: #0980d0;
+    color: #ffffff;
+  }
+  .atmosphere {
+    font-size: 24px;
+  }
+  
+  .col-2 {
+    text-align: center;
+  }
+  
