@@ -44,6 +44,10 @@ function showWeather(response) {
   let temperature = Math.round(response.data.main.temp);
   let temperatureElement = document.querySelector("#temperatureElement");
     temperatureElement.innerHTML = `${temperature}°C`;
+  let humidityElement = document.querySelector("#humidity");
+    humidityElement.innerHTML = response.data.main.humidity;
+  let windElement = document.querySelector("#wind");
+    windElement.innerHTML = Math.round(response.data.wind.speed);
   let iconElement = document.querySelector("#icon");
     iconElement.setAttribute(
     "src",
