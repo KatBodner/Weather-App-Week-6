@@ -44,4 +44,10 @@ function showWeather(response) {
   let temperature = Math.round(response.data.main.temp);
   let temperatureElement = document.querySelector("#temperatureElement");
     temperatureElement.innerHTML = `${temperature}°C`;
+  let atmosphereElement = document.querySelector("#atmosphere");
+  atmosphereElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  atmosphereElement.setAttribute("alt", response.data.weather[0].description);
 }
