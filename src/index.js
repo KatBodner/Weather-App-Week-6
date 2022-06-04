@@ -44,7 +44,6 @@ function showWeather(response) {
   let temperature = Math.round(response.data.main.temp);
   let temperatureElement = document.querySelector("#temperatureElement");
     temperatureElement.innerHTML = `${temperature}°C`;
-  atmosphereElement.innerHTML = response.data.weather[0].description;
   let iconElement = document.querySelector("#icon");
     iconElement.setAttribute(
     "src",

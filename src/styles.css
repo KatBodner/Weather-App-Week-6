@@ -30,8 +30,9 @@ body {
     background-color: #0980d0;
     color: #ffffff;
   }
+
   .atmosphere {
-    font-size: 24px;
+    font-size: 20px;
   }
   
   .col-2 {
@@ -46,7 +47,24 @@ body {
     text-align: center;
   }
   
-   img.icon {
-    text-align: right;
-  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  h2 strong {
+    line-height: 1;
+    font-weight: 400;
+    font-size: larger;
+  } 
+
+  h2 .units { 
+    position: relative;
+    top: -17px;
+    font-size: 14px;
+    font-weight: 200;
   }
