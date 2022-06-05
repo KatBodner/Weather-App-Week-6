@@ -31,7 +31,8 @@ body {
     color: #ffffff;
   }
 
-  .atmosphere {
+  p.atmosphere {
+    margin: 0; 
     font-size: 20px;
   }
   
@@ -67,4 +68,12 @@ body {
     top: -17px;
     font-size: 14px;
     font-weight: 200;
+  }
+
+  h2 #temperatureElement {
+    margin: 0 auto;
+  }
+
+  img #icon {
+    size-adjust: 50%;
   }
